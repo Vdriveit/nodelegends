@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello Get into DevOps and start working on it\n");
+  response.end("Welcome to Vdrive IT Solutions\n");
 });
 
 // listen on localhost:8000
